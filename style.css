@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+.wrap {
+    margin: 20px 10px;
+}
+
+body {
+    background: radial-gradient(lightgray 0%, gray 100%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    display: table;
+}
+
+li {
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+img {
+    border: 10px solid #000;
+    transition: all 0.3s ease;
+    width: 321px;
+    height: 220px;
+}
+
+.overlay li {
+    position: relative;
+}
+
+.overlay-transition {
+    width: 321px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.overlay-transition ul {
+    position: relative;
+}
+
+.overlay-transition ul li {
+    display: list-item;
+    float: left;
+    margin: 0;
+}
+
+.overlay-item {
+    width: 32px;
+    height: 22px;
+    background: rgba(0,0,0,0.9);
+    transition: all 0.4s ease-in-out;
+}
+
+.overlay-transition:hover ul li div {
+    background: transparent;
+}
+
+.delay-1 {
+	transition-delay: 0.04s;
+}
+
+.delay-2 {
+	transition-delay: 0.08s;
+}
+
+.delay-3 {
+	transition-delay: 0.12s;
+}
+
+.delay-4 {
+	transition-delay: 0.16s;
+}
+
+.delay-5 {
+	transition-delay: 0.20s;
+}
+
+.delay-6 {
+	transition-delay: 0.24s;
+}
+
+.delay-7 {
+	transition-delay: 0.28s;
+}
+
+.delay-8 {
+	transition-delay: 0.32s;
+}
+
+.delay-9 {
+	transition-delay: 0.36s;
+}
+
+.delay-10 {
+	transition-delay: 0.40s;
+}
+
